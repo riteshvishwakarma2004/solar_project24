@@ -1,58 +1,110 @@
-#main-page{
-    display:inline-block;
+
+/*@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')*/
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+
 }
 body{
-    background: url(profilebg.jpg) no-repeat;
-    background-size: cover;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.60)), url("landingbg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-}
-.navbar
-{
-    
-    height: 50px;
-    width: 30%;
-    align-items: center;
-    display: flex;
-    font-family: 'Kanit', sans-serif;
-    backdrop-filter: blur(10px);
-    color: blue;
-   margin-left: 1200px;
+    background-size: cover;
+
 }
 
-.navbar ul 
+.cointainer{
+    width: 85%;
+    margin: auto;
+}
+.nav
 {
+    height: 80px;
+}
+
+nav h2{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb7620;
+
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+
+nav ul li{
+    display: inline-block;
     list-style: none;
-    display: flex;
-    
-    
+    padding: 0px 5px;
 }
 
-.navbar li
-{
-    display: flex;
-    padding: 10px 30px;
-    
-    
-}
-
-.navbar li a
-{
-    
+nav ul li a{
+    color: #fff;
     text-decoration: none;
-    font-size: 20px;
-    color: white;
-    background: transparent;
-}
-.navbar a{
-    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
 }
 
-.navbar ul li a:hover{
-    border-bottom: 1px solid #0c0cdd;
-    color: rgb(176, 178, 209);
-    border-radius: 12px;
+nav ul li a:hover{
+     background-color: #eb7620;
+     transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
 }
 
-#login{
-    margin-left: 1250px;
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh) ;
 }
+
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color: #7e7e7e;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    text-align: center ;
+
+}
+
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+
+}
+
+.article .btn:hover{
+    background-color:bisque ;
+    transition: 0.5s ease;
+}
+
+.yt
+
+{
+margin-top: 800px;
+}
+
