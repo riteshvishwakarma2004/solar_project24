@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="register.css">
 </head>
 <body style="background-color: rgba(0, 0, 0, 0.623); color:yellow">
     <center>
