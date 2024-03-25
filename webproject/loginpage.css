@@ -1,288 +1,47 @@
-*{
-    margin: 0px 0px;
-}
+/* login.css */
 
-body{
-    background: url(profilebg.jpg) no-repeat;
-    background-size: cover;
-}
-.container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 75%;
-    width: 906px;
-    background: url(prof1.jpg) no-repeat;
-    background-size: cover;
-    box-shadow: 0px 0px 5px #0f0b4a;
-    border-radius: 10px;
-}
-.container .content{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    width: 58%;
-    height: 100%;
-    background: transparent;
-    display: none; 
-}
-.container .content2{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 70%; 
-    max-width: 400px; 
-    height: auto;
-    background: transparent;
-    margin-top: 100px;
-}
-.container .content2 .formbox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: transparent;
-    color: white;
-    
-}
-
-.icon{
-    color: white;
-}
-.formbox h2{
-    text-align: center;
-    font-size: 30px;
-    font-family: 'Kanit', sans-serif;
-}
-.formbox .input1{
-    padding: 0px;
-    width: 263px;
-    height: 41px;
-    border-bottom: 1px solid white;
-    margin: 20px 0px 24px 12px;
-}
-.formbox img{
-    position: absolute;
-    margin: -2px 29px -8px 0px;
-    right: 50px;
-
-    
-}
-.formbox{
-    position: relative;
-}
-.formbox .input1{
-    width: 202px;
-    height: 25px;
-}
-.formbox label{
-    position: relative;
-    top: -40px;
-    pointer-events: none;
-    transition: 0.4s ease;
-    font-family: 'Kanit', sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-}
-.formbox input{
-    background: transparent;
-    font-size: 15px;
-    color: #f0f8ff96;
-    font-weight: lighter;
-    border: none;
-    outline: none;
-}
-.input1 input:focus~label{
-    top: -45px;
-}
-.formbox .rem{
-    margin: 10px;
-}
-.wow{
-    display: flex;
-    font-size: 17px;
-    font-weight: 500;  
-    font-family: 'Kanit', sans-serif;
-    margin: -8px 0px 15px;
-    color: white;
-    padding: 0px 0px 1px 10px;
-    justify-content: space-between;
-}
-.forg a{
-    padding: 13px;
-    font-family: 'Kanit', sans-serif;
-    font-size: 17px;
-    color: rgb(94 179 255);
-    text-decoration: none;
-}
-.forg a:hover{
-    text-decoration: underline;
-}
-.btn{
-    width: 100%;
-    height: 30px;
-    font-weight: 500;
-    font-size: 16px;
-    color: white;
-    background-color: #0202cf;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    box-shadow: 0px 0px 10px #3835fb;
-}
-.btn:hover{
-    cursor: pointer;
-    border-radius:6px ;
-    background-color: #0c0cdd;
-}
-.hein{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 12px;
-    font-size: 17px;
-    color: white;
-    font-family: 'Kanit', sans-serif;
-}
-.hein a{
-    
-    text-decoration: none;
-    color:rgb(138, 185, 227) ;
-}
-.hein a:hover{
-    text-decoration: underline;
-}
-.content{
-    margin: 50px;
-}
-.content .logo{
-    font-size: 30px;
-    font-family: 'Comfortaa', cursive;
+body {
+    background-color: rgba(0, 0, 0, 0.507);
     color: yellow;
-}
-.content .welcome{
-    width: 100%;
-    font-size: 35px;
-    font-family: 'Skranji', cursive;
-    color: white;
-    padding: 31px 0px 0px 0px;
-}
-.content .welcome2{
-    color: white;
-    font-size: large;
-    font-family: 'Skranji', cursive;
-    margin: -13px 0px 18px 4px;
-}
-.content .para{
-    width: 80%;
-    font-size: 17px;
-    color: white;
+    font-family: Arial, sans-serif;
 }
 
-/*NAVBAR*/
-
-.navbar
-{
-    
-    height: 50px;
-    width: 30%;
-    align-items: center;
-    display: flex;
-    font-family: 'Kanit', sans-serif;
-    backdrop-filter: blur(10px);
-    color: blue;
-   margin-left: 800px;
+.container {
+    margin-top: 250px;
 }
 
-.logo
-{
-    color: black ;
-    font-size: 40px;
-    padding: 10px;
-    padding-right: 250px;
+form {
+    text-align: center;
 }
 
-.logo span
-{
-    color: black;
-    
+input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    margin: 5px;
+    border: none;
     border-radius: 5px;
-    background-color: orange;
+    width: 200px;
 }
 
-.navbar ul 
-{
-    list-style: none;
-    display: flex;
-    
-    
-}
-
-.navbar li
-{
-    display: flex;
-    padding: 10px 30px;
-    
-}
-
-.navbar li a
-{
-    
-    text-decoration: none;
-    font-size: 20px;
+input[type="submit"] {
+    background-color: #4caf50;
     color: white;
-    background: transparent;
-}
-.navbar a{
-    padding: 15px;
-}
-
-.navbar ul li a:hover{
-    border-bottom: 1px solid #0c0cdd;
-    color: rgb(176, 178, 209);
-    border-radius: 12px;
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
+input[type="submit"]:hover {
+    background-color: #45a049;
 }
 
-@media (max-width: 768px) {
-    .footer {
-        font-size: 14px;
-    }
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+a {
+    color: yellow;
+    text-decoration: none;
 }
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 630px;
-}
-
-@media (max-width: 768px) {
-    .footer {
-        font-size: 14px;
-    }
+a:hover {
+    text-decoration: underline;
 }
