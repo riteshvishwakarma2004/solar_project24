@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <link rel="stylesheet" href="login.css">
+     <nav>
+            <div class="navbar">
+                <h1 class="logo"><span></span></h1>
+                <ul>
+                    <li class="home"><a href="index.html">Home</a></li>
+                    <li class="about"><a href="aboutpage.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
 
 </head>
 <body style="background-color: rgba(0, 0, 0, 0.507); color:yellow;">
