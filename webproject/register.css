@@ -5,6 +5,51 @@ body {
     color: yellow;
     font-family: Arial, sans-serif;
 }
+.navbar
+{
+    
+    height: 50px;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    backdrop-filter: blur(10px);
+    color: blue;
+   margin-left: 1000px;
+}
+
+.navbar ul 
+{
+    list-style: none;
+    display: flex;
+    
+    
+}
+
+.navbar li
+{
+    display: flex;
+    padding: 10px 30px;
+    
+}
+
+.navbar li a
+{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+}
+.navbar a{
+    padding: 15px;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 1px solid #0c0cdd;
+    color: rgb(176, 178, 209);
+    border-radius: 12px;
+}
 
 .container {
     margin-top: 250px;
