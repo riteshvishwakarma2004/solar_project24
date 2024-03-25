@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="register.css">
+     <nav>
+          <div class="navbar">
+              <h1 class="logo"><span></span></h1>
+              <ul>
+                  <li class="home"><a href="index.html">Home</a></li>
+              </ul>
+          </div>
+      </nav>
 </head>
 <body style="background-color: rgba(0, 0, 0, 0.623); color:yellow">
     <center>
